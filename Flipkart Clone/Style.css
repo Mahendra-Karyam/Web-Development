@@ -1,0 +1,449 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif; 
+    scrollbar-width: none;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(239, 239, 244);
+}
+
+header{
+    height: 42.667px;
+    padding: 12px;
+}
+
+#Tools{
+    display: flex;
+}
+
+#LogoAndSearch{
+    width: 658.365;
+    display: flex;
+}
+
+#FlipcartLogo{
+    width: 175px;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+#Search{
+    width: 416.031px;
+    height: 40px;
+    background-color: #f0f5ff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#SearchLogo{
+    width: 44px;
+    cursor: pointer;
+}
+
+#SearchLogo i{
+    padding: 8px 8px 8px 12px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f5ff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#PCS{
+    width:480px;
+    display: flex;
+    margin-left: 20px;
+}
+
+#Profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 145.635px;
+    margin-left: 10px;
+}
+
+#Profile:hover{
+    border: 1px solid rgb(154, 152, 152);
+    border-radius: 8px;
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+
+}
+
+#Cart{
+    margin-left: 25px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Seller{
+    width: 165px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#Cart,#Seller:hover{
+    cursor: pointer;
+}
+#ThreeDots{
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+}
+
+#ThreeDots{
+    margin-left: 6px;
+}
+
+#Dots{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Dots:hover{
+    border: 1px solid rgb(154, 152, 152);
+    border-radius: 8px;
+    background-color: rgb(247, 245, 245);
+    cursor: pointer;
+}
+
+main{
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: rgb(239, 239, 244);
+}
+#ATOS{
+    height: 142px;
+    background-color: white;
+}
+
+.IndividualShopping img{
+    height: 64px;
+    width: 64px;
+    padding: 16px 16px 16px 16px;
+}
+
+#AllTypesOfShopping{
+    display: flex;
+    justify-content: space-around;
+}
+
+.IndividualShopping{
+    width: 93px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Name{
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#MovingImages{
+    margin-top: 15.5px;
+}
+
+#MovingImagesArea img:hover{
+    cursor: pointer;
+}
+
+.slider {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: slideAnimation 12s infinite;
+}
+.slider img:nth-child(1) {
+    animation-delay: 0s;
+}
+.slider img:nth-child(2) {
+    animation-delay: 2s;
+}
+.slider img:nth-child(3) {
+    animation-delay: 4s;
+}
+.slider img:nth-child(4) {
+    animation-delay: 6s;
+}
+.slider img:nth-child(5) {
+    animation-delay: 8s;
+}
+.slider img:nth-child(6) {
+    animation-delay: 10s;
+}
+.slider img:nth-child(7) {
+    animation-delay: 12s;
+}
+
+@keyframes slideAnimation {
+    0%, 14.28% { opacity: 0; }
+    14.28%, 28.56% { opacity: 1; }
+    28.56%, 100% { opacity: 0; }
+}
+
+#BestOfElectronics, #BeautyFoodToysAndMore, #SportsHealthcareAndMore, #TopDealsOnTvsAndAplliances{
+    height: 299.962px;
+    margin-top: 15.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#HeadingArea{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#Products{
+    margin-top: 5px;
+    height: 223.996px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Product{
+    height: 210px;
+    width: 150px;
+    border: 1px solid rgb(220, 217, 217);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.Image{
+    margin-top: 2px;
+    height: 142.812px;
+    width: 142.812px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name2{
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    width: 120px;
+}
+
+.Cost{
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+#RecommendedItemsAndMoreToExplore, #SuggestedItemsAndRecommendedItems{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15.5px;
+    background-color: rgb(239, 239, 244);
+}
+#RecommendedItems, #MoreToExplore, #SuggestedItems{
+    width: 590px;
+    height: 720px;
+}
+
+#Headings{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(194, 192, 192);
+}
+
+#Items{
+    height: 590px;
+    display: flex;
+}
+
+#Side1{
+    width: 300px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#Side2{
+    width: 200px;
+    height: 100%;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#Names1, #Names2{
+    margin: 5px;
+}
+
+#Headings h2{
+    font-weight: 600;
+    font-family: inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#Items img,p,b{
+    cursor: pointer;
+}
+
+#Side2Top ,#Side2Bottom{
+    margin-top: 25px;
+}
+
+#TopRated{
+    height: 450px;
+    margin-top: 135px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#TopRated #Products{
+    margin-top: 70px;
+}
+
+ #TopRated .Product{
+    width: 270px;
+    height: 330px;
+    border: 1px solid rgb(220, 217, 217);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+ }
+
+ #TopRated #Products .Product .Image{
+    margin-top: 20px;
+ }
+
+ #TopRated #Products .Name2{
+    margin-top: 25px;
+ }
+ #TopRated #Products .Cost{
+    margin-top: -15px;
+ }
+
+#TopDealsOnTvsAndAplliances{
+    margin-top: 135px;
+}
+
+footer{
+    margin-top: 18px;
+    color: white;
+    height: 500px;
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32,32,32);
+}
+
+footer #Content{
+    height: 460px;
+    width: 100%;
+    background-color: rgb(32,32,32);
+    margin-bottom: -42px;
+}
+
+#FirstFooter, #SecondFooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(32,32,32);
+}
+
+#FirstFooter #About, #GroupCompanies, #Help{
+    margin-top: 10px;
+    height: 150px;
+    width: 276.042px;
+    background-color: rgb(32,32,32);
+    margin-left: -70px;
+}
+
+#SecondFooter #ConsumerPolicy, #MailUs, #RegisteredOfficeAddress{
+    color: white;
+    margin-top: 30px;
+    height: 130px;
+    width: 276.042px;
+    background-color: rgb(32,32,32);
+    margin-left: -70px;
+}
+
+#FinalFooter{
+    margin-top: 110px;
+    height: 77.992px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(32,32,32);
+    border-top: 1px solid rgb(66, 66, 66);
+}
+
+#FinalFooter pre{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    background-color: rgb(32,32,32);
+}
+
+#About{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
