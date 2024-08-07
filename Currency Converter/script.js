@@ -195,7 +195,7 @@ const updateFlag = (element) => {
 }
 
 btn.addEventListener("click", (evt) => {
-    evt.preventDefault(); ///////************************************************************** */
+    evt.preventDefault(); 
      let amout = document.querySelector(".amount input");
      let amtVal = amout.value;
     //  console.log(amtVal);
